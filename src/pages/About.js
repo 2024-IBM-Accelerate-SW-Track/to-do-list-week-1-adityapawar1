@@ -1,4 +1,9 @@
-import { Accordion, AccordionDetails, AccordionSummary, Avatar } from "@mui/material";
+import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
+  Avatar,
+} from "@mui/material";
 import React, { Component } from "react";
 
 export default class About extends Component {
@@ -7,8 +12,7 @@ export default class About extends Component {
       <div>
         <div>
           <div className="split left">
-            <div className="centered">
-            </div>
+            <div className="centered"></div>
           </div>
           <div className="split right">
             <div className="centered">
@@ -31,7 +35,7 @@ export default class About extends Component {
             </div>
           </div>
         </div>
-      </div >
+      </div>
     );
   }
 }
