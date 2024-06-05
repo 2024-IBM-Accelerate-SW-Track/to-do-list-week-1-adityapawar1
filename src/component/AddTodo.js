@@ -54,7 +54,6 @@ class AddTodo extends Component {
         >
           Add
         </Button>
-
       </div>
     );
   }

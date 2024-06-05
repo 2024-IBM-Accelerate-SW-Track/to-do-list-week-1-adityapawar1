@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import profile_picture from "../assets/pfp.png";
 
 export default class About extends Component {
@@ -30,6 +30,6 @@ export default class About extends Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
