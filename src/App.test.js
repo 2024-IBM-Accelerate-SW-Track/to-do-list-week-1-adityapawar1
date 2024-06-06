@@ -1,6 +1,6 @@
-import { render, screen } from '@testing-library/react';
-import { unmountComponentAtNode } from 'react-dom';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import { unmountComponentAtNode } from "react-dom";
+import App from "./App";
 
 let container = null;
 beforeEach(() => {
@@ -16,18 +16,18 @@ afterEach(() => {
   container = null;
 });
 
-test('test that App component renders', () => {
+test("test that App component renders", () => {
   render(<App />, container);
- });
+});
 
-test('test that new-item-button is a button', () => {
-  render(<App/>, container);
-  const element = screen.getByTestId('new-item-button');
+test("test that new-item-button is a button", () => {
+  render(<App />, container);
+  const element = screen.getByTestId("new-item-button");
   expect(element).toBeInTheDocument();
 });
 
-test('test that new-item-textfield is an textfield ', () => {
-  render(<App/>, container);
-  const element = screen.getByTestId('new-item-textfield');
+test("test that new-item-textfield is an textfield ", () => {
+  render(<App />, container);
+  const element = screen.getByTestId("new-item-textfield");
   expect(element).toBeInTheDocument();
 });
